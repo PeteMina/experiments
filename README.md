@@ -23,4 +23,3 @@ Sign up for Trove here: https://trove.nla.gov.au/
                         fill in the form to apply for a Trove API key;
                         read the documentation and start using your key to access the API;
                         insert your API key into the code below as instructed.
-https://hub.gke2.mybinder.org/user/petemina-experiments-tmitauka/lab/tree/Trawl%20Trove%20by%20Street%20Numbers%2C%20fully%20featured%20.ipynb
