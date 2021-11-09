@@ -23,3 +23,5 @@ Sign up for Trove here: https://trove.nla.gov.au/
                         fill in the form to apply for a Trove API key;
                         read the documentation and start using your key to access the API;
                         insert your API key into the code below as instructed.
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/PeteMina/experiments/main)
