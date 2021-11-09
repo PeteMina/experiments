@@ -1,7 +1,7 @@
 # experiments
-This code allows you to automatically search historical newspapers via successive street addresses using the National Library of Australia Trove's API.  You just enter in the street you are searching for, the street numbers you wish to look between, the year span you wish to explore, and your Trove API key and the code does the rest.  
+My code allows you to automatically search historical newspapers via successive street addresses using the National Library of Australia Trove's API.  You just enter in the street you are searching for, the street numbers you wish to look between, the year span you wish to explore, and your Trove API key and the code does the rest.  
 
-This code allows you to automatically search historical newspapers via successive street addresses using Trove's API. 
+Using the code allows you to automatically search historical newspapers via successive street addresses using Trove's API. 
 You just enter in the street you are searching for, the street numbers you wish to look between, the year span you wish to explore, and your Trove API key and the code does the rest.
 
 The code finds newspapers article via your specifications, automatically culls irrelevant results, and creates property and street level CSV files containing article information and full text. The CSV files  are saved to a newly created folder on your computer named after your search terms, i.e. Little_Lonsdale_street_1870_1890.
