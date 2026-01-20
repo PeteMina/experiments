@@ -9,6 +9,22 @@ The code finds newspapers article via your specifications, automatically culls i
 In addition, the code graphs article frequency by date and street number, displays an on-screen summary of all the articles found on a street level. It produces street level Wordclouds of the most common words in the article text and in the heading text and displays the 20 most common Ngrams on a street level. All of this material is saved to your directory.
 The code also attempts to extract all the people mentioned in the articles and adds them to your CSV files. Please note this work's via Stanford University’s Spacy AI that was trained on modern American webcontent. It is not perfect with nineteenth-century material and will often overlook non-American sounding names. As always, machine learning based code reflects the biases of the material it was trained on.
 
+## NEW: Animal Sentiment Analysis Tool
+
+This repository now includes `Animal_Sentiment_Analysis_TROVE.ipynb` - a comprehensive tool for tracking emotional attitudes towards animal species in Australian newspapers using machine learning.
+
+### Features:
+- Query TROVE API for articles about specific animals (kangaroos, koalas, dingos, etc.)
+- Machine learning-based sentiment analysis using TextBlob and VADER
+- Generate word clouds showing common terms associated with each animal
+- Create sentiment trend graphs tracking attitudes over time
+- Build geographical heat maps showing sentiment distribution across Australian states
+- Export detailed CSV files with full analysis
+
+See `ANIMAL_SENTIMENT_ANALYSIS_GUIDE.md` for complete documentation and usage instructions.
+
+---
+
 #have fun,
 
 #Pete 
