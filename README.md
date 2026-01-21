@@ -28,26 +28,38 @@ Just run the first cell in either notebook - it installs everything automaticall
 - **Windows**: `install.bat`
 
 **Installation Guides:**
+- `STREAMLINED_QUICKSTART.md` - **START HERE** for streamlined notebook
 - `JUPYTER_INSTALL.md` - For Jupyter users
-- `WINDOWS_GPU_FIX.md` - **Windows GPU troubleshooting** (RTX 4070/3080/etc.)
+- `WINDOWS_GPU_FIX.md` - Windows GPU troubleshooting (RTX 4070/3080/etc.)
 - `QUICK_INSTALL.txt` - Quick reference
 - `INSTALLATION.md` - Complete guide
 
-### Two Options Available:
+### Three Options Available:
 
-#### 1. Basic Notebook (`Animal_Sentiment_Analysis_TROVE.ipynb`)
-**Fast & Simple - Good for exploration**
+#### 1. Streamlined Notebook (`Animal_Sentiment_Analysis_Streamlined.ipynb`) ⭐ RECOMMENDED
+**User-Friendly & Powerful - Best for most users**
+- RoBERTa transformer model (~90% accuracy)
+- **Smart installation** - only installs missing packages
+- **Interactive prompts** - easy configuration
+- **GPU auto-detection** - silent unless problems
+- **GPU Accelerated**: 2-3x faster on NVIDIA GPUs
+- All visualizations + CSV exports
+- See `STREAMLINED_QUICKSTART.md` for guide
+
+#### 2. Advanced Notebook (`Animal_Sentiment_Analysis_Advanced.ipynb`)
+**For Advanced Users - Full control**
+- Multiple transformer models: DistilBERT & RoBERTa (~85-90% accuracy)
+- **GPU Accelerated**: Process 500 articles in 10-12 minutes (RTX 4070)
+- Model comparison and benchmarking
+- Manual configuration required
+- All visualizations + model comparison
+
+#### 3. Basic Notebook (`Animal_Sentiment_Analysis_TROVE.ipynb`)
+**Fast & Simple - Quick exploration**
 - VADER & TextBlob sentiment analysis (~65% accuracy)
 - Process 500 articles in ~10 seconds
 - All visualizations included
 - No GPU required
-
-#### 2. Advanced Notebook (`Animal_Sentiment_Analysis_Advanced.ipynb`) ⭐
-**High Accuracy - Good for research**
-- Transformer models: DistilBERT & RoBERTa (~85-90% accuracy)
-- **GPU Accelerated**: Process 500 articles in 10-12 minutes (RTX 4070)
-- CPU compatible (2-3x slower)
-- All visualizations + model comparison
 
 ### Features (Both Notebooks):
 - Query TROVE API for articles about specific animals (kangaroos, koalas, dingos, etc.)
