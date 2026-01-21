@@ -29,6 +29,7 @@ Just run the first cell in either notebook - it installs everything automaticall
 
 **Installation Guides:**
 - `JUPYTER_INSTALL.md` - For Jupyter users
+- `WINDOWS_GPU_FIX.md` - **Windows GPU troubleshooting** (RTX 4070/3080/etc.)
 - `QUICK_INSTALL.txt` - Quick reference
 - `INSTALLATION.md` - Complete guide
 

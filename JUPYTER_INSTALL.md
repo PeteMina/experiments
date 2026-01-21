@@ -1,5 +1,13 @@
 # Installation Instructions for Jupyter Labs/Notebook
 
+## ⚠️ WINDOWS USERS WITH GPU
+
+If you're on Windows with an NVIDIA GPU (RTX 4070, RTX 3080, etc.) and want GPU acceleration, **use the installation cell in the Advanced Notebook** instead of these manual steps. It includes:
+- Proper PyTorch with CUDA support
+- Automatic GPU detection and testing
+- Visual C++ dependency checks
+- See `WINDOWS_GPU_FIX.md` for troubleshooting
+
 ## Run These Commands in Jupyter Cells
 
 ### Cell 1: Install all packages from requirements.txt
