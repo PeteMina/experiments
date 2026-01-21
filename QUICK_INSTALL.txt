@@ -1,0 +1,81 @@
+═══════════════════════════════════════════════════════════════════
+  QUICK INSTALL - Animal Sentiment Analysis TROVE
+═══════════════════════════════════════════════════════════════════
+
+OPTION 1: One-Line Install (Recommended)
+─────────────────────────────────────────────────────────────────
+
+pip install -r requirements.txt && python -m spacy download en_core_web_sm && python -m textblob.download_corpora
+
+OPTION 2: Use Install Script
+─────────────────────────────────────────────────────────────────
+
+Linux/Mac:
+    ./install.sh
+
+Windows:
+    install.bat
+
+OPTION 3: Install Everything Manually
+─────────────────────────────────────────────────────────────────
+
+pip install altair==4.1.0 nltk==3.6.1 pandas==1.2.4 requests==2.25.1 spacy==3.1.3 textblob==0.17.1 vega==3.5.0 wordcloud==1.8.1 vaderSentiment==3.3.2 plotly==5.3.1 seaborn==0.11.2 matplotlib==3.4.3 numpy==1.21.0 transformers==4.30.2 torch==2.0.1 sentencepiece==0.1.99
+
+Then download required data:
+
+python -m spacy download en_core_web_sm
+python -m textblob.download_corpora
+python -m nltk.downloader stopwords punkt averaged_perceptron_tagger vader_lexicon
+
+OPTION 4: GPU-Specific Install (NVIDIA GPU)
+─────────────────────────────────────────────────────────────────
+
+For GPU acceleration (RTX 3060, 4070, 4090, etc.):
+
+pip install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cu118
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python -m textblob.download_corpora
+
+VERIFY INSTALLATION
+─────────────────────────────────────────────────────────────────
+
+python -c "import torch; print('GPU:', torch.cuda.is_available())"
+
+Expected output for GPU: GPU: True
+
+WHAT GETS INSTALLED
+─────────────────────────────────────────────────────────────────
+
+Core: pandas, numpy, requests
+NLP: nltk, textblob, vaderSentiment, spacy
+Visualization: matplotlib, seaborn, plotly, altair, wordcloud
+Advanced ML: torch (PyTorch), transformers, sentencepiece
+
+Total download size: ~2.5 GB (with GPU support) or ~500 MB (CPU only)
+Install time: 5-10 minutes
+
+TROUBLESHOOTING
+─────────────────────────────────────────────────────────────────
+
+"No module named 'torch'":
+    pip install torch --index-url https://download.pytorch.org/whl/cu118
+
+"CUDA out of memory":
+    In notebook, reduce BATCH_SIZE = 16 (instead of 24)
+
+"Spacy model not found":
+    python -m spacy download en_core_web_sm
+
+For detailed troubleshooting, see INSTALLATION.md
+
+NEXT STEPS
+─────────────────────────────────────────────────────────────────
+
+1. Get TROVE API key: https://trove.nla.gov.au/
+2. Start Jupyter: jupyter notebook
+3. Open notebook:
+   - Animal_Sentiment_Analysis_TROVE.ipynb (basic, fast)
+   - Animal_Sentiment_Analysis_Advanced.ipynb (advanced, accurate)
+
+═══════════════════════════════════════════════════════════════════

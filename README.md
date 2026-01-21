@@ -13,6 +13,18 @@ The code also attempts to extract all the people mentioned in the articles and a
 
 This repository now includes **two notebooks** for tracking emotional attitudes towards animal species in Australian newspapers using machine learning.
 
+### Quick Install
+
+```bash
+pip install -r requirements.txt && python -m spacy download en_core_web_sm && python -m textblob.download_corpora
+```
+
+Or use the installation script:
+- **Linux/Mac**: `./install.sh`
+- **Windows**: `install.bat`
+
+See `QUICK_INSTALL.txt` or `INSTALLATION.md` for detailed installation instructions.
+
 ### Two Options Available:
 
 #### 1. Basic Notebook (`Animal_Sentiment_Analysis_TROVE.ipynb`)
