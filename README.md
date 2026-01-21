@@ -15,15 +15,22 @@ This repository now includes **two notebooks** for tracking emotional attitudes 
 
 ### Quick Install
 
+**From Terminal:**
 ```bash
 pip install -r requirements.txt && python -m spacy download en_core_web_sm && python -m textblob.download_corpora
 ```
 
-Or use the installation script:
+**From Jupyter Notebook/Labs:**
+Just run the first cell in either notebook - it installs everything automatically!
+
+**Or use installation scripts:**
 - **Linux/Mac**: `./install.sh`
 - **Windows**: `install.bat`
 
-See `QUICK_INSTALL.txt` or `INSTALLATION.md` for detailed installation instructions.
+**Installation Guides:**
+- `JUPYTER_INSTALL.md` - For Jupyter users
+- `QUICK_INSTALL.txt` - Quick reference
+- `INSTALLATION.md` - Complete guide
 
 ### Two Options Available:
 
