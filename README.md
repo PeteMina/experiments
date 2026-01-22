@@ -38,7 +38,8 @@ Just run the first cell in either notebook - it installs everything automaticall
 
 #### 1. Streamlined Notebook (`Animal_Sentiment_Analysis_Streamlined.ipynb`) ⭐ RECOMMENDED
 **User-Friendly & Powerful - Best for most users**
-- RoBERTa transformer model (~90% accuracy)
+- **BERT-base-cased SST-2** transformer (~93% accuracy)
+- **Optimized for 19th century text** - handles formal Victorian prose
 - **Smart installation** - only installs missing packages
 - **Interactive prompts** - easy configuration
 - **GPU auto-detection** - silent unless problems

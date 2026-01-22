@@ -7,7 +7,7 @@ The **Animal_Sentiment_Analysis_Streamlined.ipynb** notebook is a simplified, us
 ✓ **Smart Installation** - Only installs missing packages
 ✓ **Silent GPU Setup** - Automatically detects and configures GPU (only reports if problems)
 ✓ **Interactive Prompts** - Easy-to-use inputs for all settings
-✓ **RoBERTa Model** - High accuracy (90%) sentiment analysis
+✓ **BERT Model** - High accuracy (93%) optimized for 19th century text
 ✓ **Complete Outputs** - All visualizations and data from original version
 
 ## How to Use
